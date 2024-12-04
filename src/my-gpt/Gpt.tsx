@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import Message from "./components/Message";
 import Loader from "./components/Loader";
-import { generateAndStoreEmbeddings, generateAnswer, generateAnswerFSP } from "./langchain";
+import {generateAndStoreEmbeddings, generateAnswer, generateAnswerEmbeddings, generateAnswerFSP} from "./langchain";
 
 type MessageType = {
   role: "user" | "AI";
@@ -14,17 +14,14 @@ export default function Gpt() {
   const [isLoading, setIsLoading] = useState<boolean>(false);
   const [error, setError] = useState<string>("");
 
-  useEffect( () => {
-    // const store = generateAndStoreEmbeddings()
-  }, [])
-
   async function handleSubmitQuestion(input: string) {
     try {
       setIsLoading(true);
       setError("");
 
-      // const response = await generateAnswer(input)
-      const response = await generateAnswerFSP(input)
+      const response = await generateAnswer(input)
+      // const response = await generateAnswerFSP(input)
+      // const response = await generateAnswerEmbeddings(input)
 
       console.log(response);
 

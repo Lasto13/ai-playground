@@ -4,14 +4,18 @@ import * as tf from '@tensorflow/tfjs-core';
 import { TensorFlowEmbeddings } from "@langchain/community/embeddings/tensorflow";
 import { RecursiveCharacterTextSplitter } from "langchain/text_splitter";
 import { MemoryVectorStore } from "langchain/vectorstores/memory";
-import { ChatPromptTemplate } from "@langchain/core/prompts";
+import {ChatPromptTemplate, PromptTemplate} from "@langchain/core/prompts";
 import { data } from "../public/data";
+import {createStuffDocumentsChain} from "langchain/chains/combine_documents";
+import {StringOutputParser} from "@langchain/core/output_parsers";
 
 const llm = new ChatOpenAI({
     openAIApiKey: import.meta.env.VITE_OPENAI_KEY,
     temperature: 1,
     modelName: "gpt-4-0125-preview",
 });
+
+const vectorStore = await generateAndStoreEmbeddings();
 
 export async function generateAndStoreEmbeddings() {
     await tf.ready();
@@ -31,6 +35,40 @@ export async function generateAndStoreEmbeddings() {
     );
 
     return vectorStore
+}
+
+export const generateAnswerEmbeddings = async (question: string) => {
+    const prompt = PromptTemplate.fromTemplate(` Use the following pieces of context to answer the question at the end.
+If you can't find the answer in the provided context, just say that you cannot answer the question based on the provided context, 
+don't answer based on your training data or hallucinate.
+
+{context}
+
+Question: {question}
+
+Helpful Answer:`);
+
+    let answer = ''
+    try {
+        const customRagChain = await createStuffDocumentsChain({
+            llm,
+            prompt,
+            outputParser: new StringOutputParser(),
+        });
+
+        const retriever = vectorStore.asRetriever();
+        const context = await retriever.invoke(question);
+
+        answer = await customRagChain.invoke({
+            question,
+            context,
+        });
+
+    } catch (e) {
+        console.log({ e })
+        return 'Something went wrong'
+    }
+    return answer
 }
 
 export async function generateAnswerFSP(

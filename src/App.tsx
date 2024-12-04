@@ -8,8 +8,8 @@ function App() {
   return (
     <>
        {/*<ToxicityDetector/>*/}
-       <Transformers/>
-      {/*<Gpt/>*/}
+       {/*<Transformers/>*/}
+      <Gpt/>
     </>
   )
 }

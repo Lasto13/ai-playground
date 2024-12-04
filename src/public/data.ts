@@ -1,65 +1,68 @@
 export const data = `
-Top 20 things to do in Amsterdam
-Updated 19 September 2023 at 09:58
+Top 20 Things to Do in Košice, Slovakia
+**Updated 24 November 2024**
 
-With its picturesque canal network, rich history and thrumming cultural scene, the capital of the Netherlands is one of the world's most vibrant cities. There are endless things to do in Amsterdam in any weather and many of the most rewarding experiences lie beyond the well-trodden tourist paths of the city centre. To lead you through the wealth of wonders, we've whittled down the selection to this essential guide.
+With its medieval charm, vibrant cultural scene, and dynamic mix of history and modernity, Košice, Slovakia’s second-largest city, is a destination rich in experiences. From Gothic cathedrals to lush parks and trendy cafes, Košice offers endless adventures for visitors. Here's your essential guide to the top 20 things to do in Košice.
 
-Many of the museums and sights included are covered by the I amsterdam City Card - a handy visitor pass which gets you free entry to Amsterdam's most popular attractions, plus free public transport for the duration of your stay.
+Get lost in Košice’s Old Town
+Košice’s Old Town is a maze of medieval charm. Begin at Hlavná Ulica (Main Street), where colorful townhouses, cozy cafes, and boutique shops line the pedestrian zone. Wander through its narrow alleys to discover hidden courtyards and historic treasures, making every turn an adventure.
 
-Get lost in the arty Jordaan
-Often cited as Amsterdam's most charming neighbourhood, wandering into the Jordaan feels like stepping back in time. Originally a working-class area, the Jordaan's narrow streets and quaint buildings now make up one of Amsterdam's most desirable quarters, dotted with independent art galleries, antique shops, courtyard gardens and atmospheric bars and restaurants. Ditch the map and lose yourself in the labyrinth of narrow lanes that sprawl eastwards from Prinsengracht canal known as the 9 Streets, one of Amsterdam's most rewarding shopping experiences. 
+Visit St. Elisabeth’s Cathedral
+Marvel at St. Elisabeth’s Cathedral, the largest Gothic cathedral in Slovakia and the easternmost of its kind in Europe. Step inside to admire its ornate interiors, and climb the spiral staircase to the tower for breathtaking panoramic views of the city.
 
-Cycle to hidden gems
-There are over 800,000 bicycles in Amsterdam. That's more bikes than people! Cycling in Amsterdam is a way of life, made easier by the city's unbeatable network of cycle routes and flat landscape. Amsterdam regularly comes out on top in lists of the world's most cycle-friendly cities, and there's no finer way to explore the region's attractions than by pedal power. Hop on your bike and head to Sloterplas for a dip in the sprawling lake, or cycle over to Ouderkerk aan de Amstel to explore a 12th-century village idyll packed with historic sights. Many of Amsterdam's best-kept secrets can be discovered from the comfort of your saddle.
+Relax by the Singing Fountain
+Located in the heart of the city near the cathedral, the Singing Fountain enchants visitors with its synchronized water and music show. Nearby, the Urban Park offers tranquil pathways, sculptures, and spaces to unwind.
 
-Try herring from a herring cart
-Raw herring may sound a little scary to the uninitiated, but every visitor to Amsterdam should give it a go. You'll spot haringhandels (herring carts) serving up this Dutch speciality all over the city - ask for a broodje haring to get the fish served in a small sandwich with pickles and onions. The best time to try raw herring is between May and July when the herring is said to be at its sweetest. Still hungry? See if you can taste your way through all of these traditional Dutch snacks during your visit. 
+Discover the underground history at the Lower Gate
+The Lower Gate Archaeological Museum is an underground marvel where you can explore the remnants of Košice’s medieval fortifications and learn about the city’s rich history through interactive exhibits.
 
-See windmills, countryside and beaches
-If you're in town for more than a few days, then plan a day trip to explore the diverse attractions of the surrounding area. Just a short hop from Amsterdam lies a rich landscape of gorgeous countryside, beaches, windmills and historic towns – all easily reachable from the city centre. Just 20 minutes from Amsterdam Central by train, the picturesque city of Haarlem overflows with history and culture, plus a great selection of shops, cafes and restaurants. And if lying on a beach is more your thing, then the beautiful golden stretches at Bloemendaal aan Zee and Zandvoort aan Zee will be happy to oblige with golden sands, dunes and plenty of watersports. Looking for picture-perfect views of windmills, rolling grassland and winding canals? Set your sights on the Zaanse Schans, a pastoral paradise that's so photogenic it is basically why Instagram was invented.
+Immerse yourself in the East Slovak Museum
+Explore Slovak culture and history at the East Slovak Museum, one of the oldest museums in the country. The highlight is the Golden Treasure of Košice, a dazzling collection of over 11 kilograms of gold coins discovered in a secret vault.
 
-Immerse yourself in culture at Westergas
-Located at Westerpark, this sprawling complex of former industrial buildings used to be the city's municipal gasworks. Now transformed into a colourful cultural hub, Westergas is home to a variety of tempting bars, restaurants, coffee roasters, a microbrewery, art-house cinema, and a whole host of creative businesses. Look out for regular food markets, mini-festivals and events held here, such as the vibrant Sunday market held on the first Sunday of every month. 
+Admire the grandeur of Jakab’s Palace
+This neo-Gothic palace is an architectural gem built in the 19th century. While not open to the public, its stunning exterior and picturesque surroundings make it a must-see for architecture enthusiasts.
 
-Check out the museums and majestic buildings in Museumplein
-Home to the Rijksmuseum, the Van Gogh Museum, the Stedelijk Museum and The Royal Concertgebouw, Museumplein is the cultural beating heart of Amsterdam. Recently renovated to a world-class standard, the leafy and architecturally astounding 19th-century district of Oud-Zuid is an art lover's utopia. The open square between the buildings pulses with activity all day, with open-air exhibitions, markets and a large paddling pool to dip your toes into on warmer days. In the winter months, the square transforms with a vast outdoor ice rink. Get free entry to more than 70 museums with the I amsterdam City Card. 
+Stroll through the Košice City Park
+Spanning over 20 hectares, Košice City Park is a green oasis in the city. It’s perfect for a leisurely walk, a morning jog, or a family picnic, with playgrounds, fountains, and lush greenery.
 
-Cruise past canal houses and bridges
-Created in the 17th century to keep the sea at bay, Amsterdam's UNESCO protected canal belt is the quintessential postcard-perfect vision of Amsterdam. It is an unbelievably pretty sight, especially after sundown when the bridges are lit up by fairy lights and the whole area takes on a magical feel. Floating along the canals by guided boat tour is a great way to get under the fabric of the city, and you'll learn lots of fascinating facts along the way – such as why the tilting homes along the canals are known as 'dancing houses'. There are many different canal cruises on offer, from hop-on-hop-off sightseeing tours to atmospheric candlelit night time cruises with food and wine. Get a free canal cruise with the I amsterdam City Card, or book a canal cruise online with the Canal Cruise Ticket.
+Experience Košice’s vibrant café culture
+Košice boasts a dynamic café scene. Visit spots like Štúr Café or Slávia for locally roasted coffee, decadent pastries, and a warm atmosphere that’s perfect for a mid-day break.
 
-Try local beer at a historic brewery 
-There are eight remaining windmills in Amsterdam and the easiest to visit is De Gooyer in the Oostelijke Eilanden (Eastern Islands) neighbourhood. And this isn't just any windmill – for under the sails of this striking landmark is Brouwerij 't IJ, an award-winning artisan microbrewery with a large outdoor drinking terrace and 30-minute guided tasting tours. The brewery produces a range of organic standard and seasonal ales that you'll find in many Amsterdam bars, though nothing tastes quite as good as beer brewed on the premises. Just try to pace yourself because the city is brimming with craft beer bars and microbreweries that will beckon you in for one more frothy fluitje. 
+See the Košice State Theatre
+The Košice State Theatre is a neo-Baroque masterpiece. Book tickets for an opera, ballet, or drama performance, or simply admire its ornate facade and fountain-filled square.
 
-Catch the free ferry to Amsterdam Noord's renovated shipyard
-Many visitors to Amsterdam never manage to venture north of Amsterdam Central Station, which is a shame, considering the vibrant food, drink and cultural scene that's burgeoned across the water. A short (free) ferry trip will take you to several drop off points, including cultural hotspot NDSM, where you can enjoy a host of hip waterside hangouts, frequent festivals and events.
+Wander through the Alley of Crafts
+Experience traditional Slovak craftsmanship at the Crafts Lane (Hrnčiarska Ulica). From pottery and glassblowing to handmade jewelry, this quaint street is perfect for finding unique souvenirs.
 
-Go to a concert or show at a world-famous venue
-Whether you like listening to live music in a majestic concert hall or an intimate dive bar, Amsterdam has you covered in high style. Housed in a converted church, Paradiso has hosted iconic acts like The Rolling Stones and Prince and continues to showcase a superb roster of international talent. An impressive grand dame, Concertgebouw is lauded for its excellent acoustics and lineup of world-class orchestras alongside a wide variety of popular musicians. While Boom Chicago has been tickling the ribs of audiences for over 25 years with comedy, sketch and improv, all performed in English. 
+Visit the Mikluš Prison Museum
+Step back into the darker side of history at Mikluš Prison Museum, housed in a former medieval jail. Learn about crime and punishment in medieval Slovakia and see preserved prison cells.
 
-Drink in a bird's-eye view of Amsterdam from a rooftop bar
-Toast to Amsterdam's impressive architecture and stunning skyline with cocktails at one of the city's stylish rooftop bars. Soak in the sprawling vista while you take a dip in one of the alfresco jacuzzis at Canvas, Volkshotel's terrace bar that's known for its affordable drinks and priceless view of Amsterdam. Or swing on over to A'DAM Tower for icy sundowners at Madam. You'll feel like you are on top of the world.
+Explore the Kulturpark
+A hub for modern culture, the Kulturpark hosts art exhibitions, concerts, and workshops in a beautifully repurposed industrial space. The adjacent park and playground are perfect for families.
 
-Live like Dutch royalty
-There are many castles, palaces and fortresses in the Amsterdam Area that provide a window into the region's regal past and will make you feel like the star of your own fairytale. The Royal Palace Amsterdam is King Willem-Alexander's official reception palace where world leaders and heads of state are hosted and entertained, but it is also open to visitors much of the year. Just 15 kilometres southeast of the city, you'll find Muiderslot—a 13th-century castle that looks like it could have been plucked from a Disney movie with its five towers, moat and drawbridge. Over in Utrecht, the 14th-century De Haar Castle was updated with impressive turrets and towers in the 19th century courtesy of Pierre Cuypers, the famous Rijksmuseum architect. 
+Take a day trip to Slanské Hills
+Just a short drive from Košice, the Slanské Hills offer hiking trails, picturesque landscapes, and opportunities for birdwatching. A perfect escape into nature for outdoor enthusiasts.
 
-Search for unusual finds at Europe's biggest flea market
-If you love bargain-hunting, quirky curiosities and sprawling industrial warehouses, make time for a visit to IJ-hallen, one of the best markets on the continent. Take the ferry from the harbour behind Central Station to the NDSM-yard and from there it's just a 5-minute walk to the market. Step into the cavernous space, or browse the many stands that spill out onto the wharf, to rifle through a wild collection of records, vintage clothing, home furnishings and antiques. If you can't find something special here, you aren't looking hard enough. 
+Marvel at St. Michael’s Chapel
+This small Gothic chapel near St. Elisabeth’s Cathedral dates back to the 14th century. Its intricate details and serene atmosphere make it a must-visit spot in the city center.
 
-See how Anne Frank lived
-Reflect on the atrocities committed against the Jewish people during World War II at the Prinsengracht house where diarist Anne Frank and her family hid from the Nazis for two years after fleeing persecution in Germany. The front of the Anne Frank House is now a thought-provoking museum but the back annexe has been preserved to give an idea of what life was like for Anne and the families she hid with. Waiting times are often lengthy, so visit early in the morning or book online in advance to beat the queues.
+Indulge in Slovak cuisine
+Savor traditional Slovak dishes like bryndzové halušky (potato dumplings with sheep cheese) at local restaurants such as Hostinec Pivovar or Med Malina. Don’t miss out on the Slovak beers and wines.
 
-Eat pancakes & feed goats in the Central Park of Amsterdam
-Amsterdamse Bos, on the southern edge of the city, is almost three times the size of New York's Central Park. This lush urban oasis provides ample opportunities for bike rides, picnics, swimming, strolling over hills and flower-blanketed valleys, or just barbecuing with friends. In the forest, you'll find Goat Farm Ridammerhoeve, where you can meet goats, lambs, chickens, pigs, cows and horses and then fuel up at its charming restaurant that serves delicious goat cheese. For heartier fare, head to Meerzicht Farm and Pancake House where the Dutch-style pancakes are beyond delicious. It also has a big playground for the kids and a stable of daintily antlered deer sure to elicit ooohs and ahhhs from your own dears. 
+Snap photos at the Immaculata Statue
+The Immaculata Statue, a baroque column in Hlavná Ulica, is a tribute to the Virgin Mary and a symbol of gratitude for the city’s survival during a plague. It’s a favorite spot for photos.
 
-Experience culture, film and architecture across the IJ
-Dominating the view from the southern banks of the IJ behind Central Station, the striking white EYE building has rapidly become one of Amsterdam's most iconic landmarks since it opened in Spring 2012. An absolute must for film fans, the EYE Filmmuseum houses a permanent exhibition space that showcases retrospectives and contemporary exhibits, as well as a vast film library, cinema and fabulous restaurant bar with a terrace overlooking the water. Catch the free 'Buiksloterweg' ferry from behind Central Station, which takes three minutes.
+Attend the White Night Festival
+Visit Košice during the annual White Night Festival to witness the city transformed by art installations, light projections, and performances. This cultural highlight draws visitors from around the world.
 
-Discover Amsterdam's independent shopping streets
-While many visitors head straight to the busy chain-stores on Kalverstraat, those in the know get their retail therapy at one of the city's more locally flavoured shopping paradise. The most well-known of these is De Negen Straatjes or 'The Nine Streets' at a quaint warren of cobbled streets that connect the main canals between Leidsegracht and Raadhuisstraat. Here you'll find over 200 retailers, including a fine selection of independent boutiques, vintage shops and specialty stores selling everything from designer dresses to handmade cosmetics. If you're looking for souvenirs to take home, skip the tourist traps and shop for authentic Dutch design and quality Amsterdam brands at the Local Goods Store in De Hallen or the I amsterdam Store in Central Station.
+Cross the historic Steel Arena
+Sports enthusiasts can visit the Steel Arena, home to Košice’s ice hockey team. Attend a game or concert in this modern multi-purpose venue.
 
-Eat your way around food stalls in a former tram depot
-Located in the hip Oud-West neighbourhood, De Hallen is a hotspot for arts, crafts, fashion and food in a recently refurbished industrial building dating from 1902. De Hallen houses a cinema, independent stores and a boutique hotel, as well as the impressive Food Hallen where visitors can munch their way through a selection of upmarket street fare from one of many vendors located around a central bar. Every other weekend, a fortnightly local-goods market sets up stall in the building's central passageway.
+Discover Košice’s Jewish Heritage
+Explore the Košice Synagogue, a stunning building that speaks to the city’s diverse cultural history. Learn about the Jewish community’s contributions to Košice through historical exhibitions.
 
-Wake up and smell the tulips
-Yes, they're as clichéd as clogs, but tulips are a definitive symbol of Dutch culture, and a trip to the Netherlands wouldn't be complete without feasting your eyes on these beautiful blooms. If you're visiting Amsterdam in spring, then take the short 20-minute trip out to the world-famous tulip fields (Bollenstreek) – stretching out in colourful stripes across miles of lowland fields between Haarlem and Leiden. There are also ample opportunities to stop and smell the tulips right in the heart of the city; the bulbs spill out of bouquets at the Bloemenmarkt, line the windows of the Tulip Museum and seem to burst forth from every possible planter during the Tulip Festival, which lasts all of April.
+Wander along the banks of the Hornád River
+The Hornád River provides a peaceful escape with walking and cycling trails. It’s a serene spot to enjoy nature, especially at sunrise or sunset.
+
+Košice is a city where history meets modernity, offering endless discoveries at every corner. Whether you’re a history buff, a foodie, or a nature lover, you’ll find plenty to explore in this vibrant Slovak destination.
 `
