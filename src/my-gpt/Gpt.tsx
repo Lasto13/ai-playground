@@ -19,9 +19,9 @@ export default function Gpt() {
       setIsLoading(true);
       setError("");
 
-      const response = await generateAnswer(input)
+      // const response = await generateAnswer(input)
       // const response = await generateAnswerFSP(input)
-      // const response = await generateAnswerEmbeddings(input)
+      const response = await generateAnswerEmbeddings(input)
 
       console.log(response);
 

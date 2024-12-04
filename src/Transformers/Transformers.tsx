@@ -1,17 +1,25 @@
-import { useState, useEffect, useRef, useCallback } from 'react';
+import { useState, useEffect, useRef, useCallback, useMemo } from 'react';
+import { pipeline } from "@xenova/transformers";
 
 type WorkerMessage = {
   status: 'initiate' | 'ready' | 'complete';
   output?: any[]; // Adjust the type of `output` as needed based on your expected data structure
 };
 
+const task = 'text-classification';
+const model = 'Xenova/distilbert-base-uncased-finetuned-sst-2-english';
+
+const classifyBlocking = await pipeline(task, model);
+
 export default function Transformers() {
   // Keep track of the classification result and the model loading status.
   const [result, setResult] = useState<any>(null); // Use a more specific type if possible
   const [ready, setReady] = useState<boolean | null>(null);
 
+
   // Create a reference to the worker object.
   const worker = useRef<Worker | null>(null);
+  
 
   // We use the `useEffect` hook to set up the worker as soon as the `App` component is mounted.
   useEffect(() => {
@@ -32,6 +40,7 @@ export default function Transformers() {
           setReady(true);
           break;
         case 'complete':
+          console.log(e.data.output);
           setResult(e.data.output ? e.data.output[0] : null);
           break;
       }
@@ -53,12 +62,15 @@ export default function Transformers() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-center p-12">
       <h1 className="text-5xl font-bold mb-2 text-center">Transformers.js</h1>
-      <h2 className="text-2xl mb-4 text-center">Next.js template (client-side)</h2>
       <input
         type="text"
         className="w-full max-w-xs p-2 border border-gray-300 rounded mb-4"
         placeholder="Enter text here"
-        onInput={(e) => classify((e.target as HTMLInputElement).value)}
+        // onInput={(e) => classify((e.target as HTMLInputElement).value)}
+        onInput={async (e) => {
+          const res = await classifyBlocking((e.target as HTMLInputElement).value)
+          console.log(res);
+        }}
       />
 
       {ready !== null && (

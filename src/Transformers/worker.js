@@ -26,7 +26,6 @@ self.addEventListener('message', async (event) => {
     // Retrieve the classification pipeline. When called for the first time,
     // this will load the pipeline and save it for future use.
     let classifier = await PipelineSingleton.getInstance(x => {
-        console.log(x);
         // We also add a progress callback to the pipeline so that we can
         // track model loading.
         self.postMessage(x);

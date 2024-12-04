@@ -1,6 +1,8 @@
 import { ChatOpenAI } from "@langchain/openai";
 
 import * as tf from '@tensorflow/tfjs-core';
+
+
 import { TensorFlowEmbeddings } from "@langchain/community/embeddings/tensorflow";
 import { RecursiveCharacterTextSplitter } from "langchain/text_splitter";
 import { MemoryVectorStore } from "langchain/vectorstores/memory";
@@ -16,9 +18,14 @@ const llm = new ChatOpenAI({
 });
 
 const vectorStore = await generateAndStoreEmbeddings();
+console.log(vectorStore);
 
 export async function generateAndStoreEmbeddings() {
     await tf.ready();
+
+    // console.log('Current Backend:', tf.getBackend());
+
+    const startTime = performance.now();
 
     const file = data
 
@@ -33,6 +40,9 @@ export async function generateAndStoreEmbeddings() {
         docs,
         new TensorFlowEmbeddings()
     );
+
+    const endTime = performance.now();
+    console.log(`Embedding generation took ${endTime - startTime} ms`);
 
     return vectorStore
 }
@@ -72,19 +82,26 @@ Helpful Answer:`);
 }
 
 export async function generateAnswerFSP(
-    question: string,
-    promptTemplate: string = "You are a travel assistant.",
-) {
-    // Keep examples simple - the model should learn from their format
+    question: string, 
+    promptTemplate: string = "You are an expert travel assistant. Provide concise, informative answers with specific recommendations based on the question."
+  ) {
     const examples = [
-        {
-            input: 'What are the best restaurants in Amsterdam?',
-            output: 'The highest rated restaurants in Amsterdam are (1) (2) (3)'
-        },
-        {
-            input: 'What are the must-visit museums in Amsterdam?',
-            output: 'The top museums in Amsterdam are (1) Rijksmuseum (2) Van Gogh Museum (3) Anne Frank House'
-        }
+      {
+        input: 'What are the best restaurants in Amsterdam?',
+        output: 'Top Amsterdam restaurants: 1) De Kas - farm-to-table cuisine in a greenhouse, 2) Ciel Bleu - Michelin-starred with city views, 3) Restaurant C - innovative Dutch cuisine'
+      },
+      {
+        input: 'What are the must-visit museums in Amsterdam?',
+        output: 'Essential Amsterdam museums: 1) Rijksmuseum - Dutch art and history, 2) Van Gogh Museum - world\'s largest Van Gogh collection, 3) Anne Frank House - powerful Holocaust memorial'
+      },
+      {
+        input: 'What are some unique experiences in Tokyo?',
+        output: 'Unique Tokyo experiences: 1) Robot Restaurant show, 2) Teamlab Borderless digital art museum, 3) Tsukiji Outer Market food tour, 4) Owl Cafe in Akihabara'
+      },
+      {
+        input: 'Best hiking trails in New Zealand?',
+        output: 'Top New Zealand hikes: 1) Tongariro Alpine Crossing - volcanic landscapes, 2) Milford Track - stunning fjord views, 3) Abel Tasman Coast Track - coastal scenery'
+      }
     ];
 
     const messages = [
